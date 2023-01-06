@@ -1,0 +1,12 @@
+[build-system]
+build-backend = "setuptools.build_meta"
+requires = ["setuptools>=61.0"]
+[project]
+name = "verizon"
+description = "The Verizon Edge Discovery Service API can direct your application clients to connect to the optimal service endpoints for your Multi-access Edge Computing (MEC) applications for every session. The Edge Discovery Service takes into account the current location of a device, its IP anchor location, current network traffic and other factors to determine which 5G Edge platform a device should connect to."
+version = "1.3.0"
+requires-python = ">=3.7"
+authors = [{name = "APIMatic Code Generator", email = "support@apimatic.io"}]
+dependencies = ["apimatic-core~=0.1.0", "apimatic-core-interfaces~=0.1.0", "apimatic-requests-client-adapter~=0.1.0", "python-dateutil~=2.8.1", "enum34~=1.1, >=1.1.10", "deprecation~=2.1"]
+[project.optional-dependencies]
+testutils = ["pytest>=7.1.3"]
